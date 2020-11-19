@@ -2,9 +2,12 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>My notebooks</title>
+    <title>DAW Notebooks</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <meta name="description" content="Description" />
+    <meta
+      name="description"
+      content="Web development technician certificate notes (AKA DAW in Spain)"
+    />
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1.0, minimum-scale=1.0"
@@ -21,17 +24,19 @@
   <body>
     <div id="app">Loading content...</div>
     <script>
-      const basePath = "/docsify-notebooks/";
+      const basePath = "/daw-notebooks/";
       const relativePath = (path) => `${basePath}#/${path}`;
 
       window.$docsify = {
-        name: "📘 My notebooks",
+        name: "📘 DAW Notebooks",
         nameLink: {
-          "/example-notebook": relativePath("example-notebook/README"),
+          "/01-computer-systems": relativePath("01-computer-systems/README"),
+          "/02-databases": relativePath("02-databases/README"),
+          "/03-programming": relativePath("03-programming/README"),
           "/": relativePath("README"),
         },
 
-        repo: "monkeyandres/docsify-notebooks",
+        repo: "monkeyandres/daw-notebooks",
         basePath,
 
         loadSidebar: true,

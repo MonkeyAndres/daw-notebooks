@@ -1,10 +1,10 @@
 {
-  "name": "docsify-notebooks",
+  "name": "daw-notebooks",
   "version": "1.0.0",
-  "description": "Template for building notebooks with docsify.",
+  "description": "Web development technician certificate notes (AKA DAW in Spain)",
   "main": "index.html",
   "scripts": {
-    "start": "ws -p 3000 -r '/docsify-notebooks/(.*) -> /$1' --open"
+    "start": "ws -p 3000 -r '/daw-notebooks/(.*) -> /$1' --open"
   },
   "keywords": [],
   "author": "",
