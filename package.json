@@ -8,7 +8,7 @@
   },
   "keywords": [],
   "author": "",
-  "license": "The Unlicense",
+  "license": "Unlicense",
   "devDependencies": {
     "local-web-server": "^4.2.1"
   }
