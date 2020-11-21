@@ -1,3 +1,3 @@
 - [👈🏻 Go back](/README.md)
 - **Databases**
-- [Home](02-databases/README.md)
+- [Home](README.md)

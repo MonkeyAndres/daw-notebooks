@@ -1,4 +1,7 @@
 - [Introduction](README.md)
+- **Modules**
 - [M01 - Computer systems](01-computer-systems/README.md)
 - [M02 - Databases](02-databases/README.md)
 - [M03 - Programming](03-programming/README.md)
+- **Pre-university courses**
+- [PUC - Analysis and software design](99-analysis-and-software-design/README.md)

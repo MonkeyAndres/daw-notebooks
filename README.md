@@ -14,13 +14,13 @@ Review all the info about this web development technician certificate [here](htt
 
 #### Next steps
 
-* [M04 - Markup languages]()
-* [M05 - Development environments]()
-* [M06 - Frontend development]()
-* [M07 - Backend development]()
-* [M08 - Application deployment]()
-* [M09 - Web design]()
-* [M12 - Development environments]()
+* M04 - Markup languages
+* M05 - Development environments
+* M06 - Frontend development
+* M07 - Backend development
+* M08 - Application deployment
+* M09 - Web design
+* M12 - Development environments
 
 ## Source
 

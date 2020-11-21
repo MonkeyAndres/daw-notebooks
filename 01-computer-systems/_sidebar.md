@@ -1,3 +1,3 @@
 - [👈🏻 Go back](/README.md)
 - **Computer systems**
-- [Home](01-computer-systems/README.md)
+- [Home](README.md)

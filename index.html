@@ -24,20 +24,12 @@
   <body>
     <div id="app">Loading content...</div>
     <script>
-      const basePath = "/daw-notebooks/";
-      const relativePath = (path) => `${basePath}#/${path}`;
-
       window.$docsify = {
         name: "📘 DAW Notebooks",
-        nameLink: {
-          "/01-computer-systems": relativePath("01-computer-systems/README"),
-          "/02-databases": relativePath("02-databases/README"),
-          "/03-programming": relativePath("03-programming/README"),
-          "/": relativePath("README"),
-        },
 
         repo: "monkeyandres/daw-notebooks",
-        basePath,
+        basePath: "/daw-notebooks/",
+        relativePath: true,
 
         loadSidebar: true,
         auto2top: true,
