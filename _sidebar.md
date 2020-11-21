@@ -4,4 +4,4 @@
 - [M02 - Databases](02-databases/README.md)
 - [M03 - Programming](03-programming/README.md)
 - **Pre-university courses**
-- [PUC - Analysis and software design](99-analysis-and-software-design/README.md)
+- [Analysis and software design](99-analysis-and-software-design/README.md)
