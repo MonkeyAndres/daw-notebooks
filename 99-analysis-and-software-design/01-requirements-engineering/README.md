@@ -7,7 +7,7 @@ The general objective of this course is to learn the process of developing a sof
 * [M1 - Introduction to Requirements Engineering](m1-introduction.md)
 * [M2 - Basic concepts of Requirements Engineering](m2-basic-concepts.md)
 * [M3 - Processes of requirements engineering](m3-re-processes.md)
-* M4 - Requirements capture
+* [M4 - Requirements capture](m4-requirements-capture.md)
 * M5 - Standards and requirements specification
 * M6 - Requirements validation and verification
 * M7 - Requirements management process
