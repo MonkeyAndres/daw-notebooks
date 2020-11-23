@@ -42,10 +42,22 @@
           crossChapter: true,
           crossChapterText: true,
         },
+
+        search: "auto",
+        search: {
+          // 30 min * 60 secs/min * 1000 secs/ms = ms
+          maxAge: 30 * 60 * 1000,
+          paths: "auto",
+          placeholder: "Type to search",
+          noData: "No Results!",
+          depth: 6,
+          hideOtherSidebarContent: false,
+        },
       };
     </script>
     <!-- Docsify v4 -->
     <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+    <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
     <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
     <script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
   </body>
