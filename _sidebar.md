@@ -1,4 +1,4 @@
-- [Introduction](README.md)
+- [Introduction](/)
 - **Modules**
 - [M01 - Computer systems](01-computer-systems/README.md)
 - [M02 - Databases](02-databases/README.md)
