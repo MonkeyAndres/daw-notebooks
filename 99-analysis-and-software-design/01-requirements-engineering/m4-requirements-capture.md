@@ -127,12 +127,13 @@ This techniques uses a specific model of the type of information that we want to
 
 Examples of interaction scenes. The most common type of scene are the use cases.
 
-* Must include
-  * Description of the starting point
-  * Description of a normal flow
-  * Description of what can go wrong
-  * Inform about any other parallel activity
-  * Description of the end of the scene
+Must include:
+
+* Description of the starting point
+* Description of a normal flow
+* Description of what can go wrong
+* Inform about any other parallel activity
+* Description of the end of the scene
 
 Example:
 
@@ -246,4 +247,96 @@ AKA conflict resolution.
   2. Debate: each participant exposes how the problem can be solved
   3. Resolution: agreement in top of the actions that affect each requirement
 
-### Conceptual modeling
+### Techniques for analysing requirements
+
+The application of this techniques is important as it allows you to do a quick check over the obtain requirements and identify defects.
+
+The most common used techniques are the checklists and the interaction matrixes (aka DSM).
+
+## UML Diagrams
+
+### Introduction to UML
+
+UML means Unified Modeling Language, it's a visual language for visualizing, building and documenting software artifacts. Was built following OOP principles.
+
+Can be used for:
+* Software design
+* Business processes
+* Requirements capture
+* Document a system, process or organization
+
+### Types of UML charts
+
+UML 2.0 defines 14 different types of diagrams divided in two categories.
+
+* Structural: how things are organized
+  * Class
+    * Conceptual perspective of the system
+    * Useful for establish a rigorous vocabulary of the domain
+    * Formed by classes (groups of objects with common behaviour)
+    * Represents relationship between classes
+  * Object
+  * Component
+  * Composite structure
+  * Package
+  * Profile
+  * Deployment
+* Behaviour: how things behave
+  * Use cases
+    * Describes how people interact with the system
+  * Activity
+    * Show how the system interacts to users input
+  * State Machine
+    * Useful for complex lifecycles (different states with multiple events changing that states)
+  * Interaction Overview
+    * Describe the functionality of the system to build
+    * Describe how object groups cooperate to achieve the desired behaviour
+  * Sequence
+    * Order in time the different events between objects
+  * Communication
+    * Similar to sequence diagrams, but the focus is on messages passed between objects
+  * Timing
+
+[Read more and see examples of each type.](https://creately.com/blog/diagrams/uml-diagram-types-examples/)
+
+### Use case diagrams
+
+Describes how people interact with the system.
+
+[UML Use Case Diagram Tutorial](https://youtu.be/zid-MVo7M-E)
+
+#### Systems
+
+* Definition: the product you're developing
+* Represented by a rectangle with a name in the top
+
+#### Actors
+
+* Definition: someone or something that uses our system (user, an organization, another system, an external device)
+* Represented by a stick figure
+* They are always externals.
+* Each actor should perform at least one use case
+* Types
+  * Primary actor (right system): initiates the use of the system
+  * Secondary actor (left system): comes into scene when a primary actor does something (reacts)
+
+#### Use cases
+
+* Definition: represents an action that does something in the system
+* Represented by a oval inside a system
+
+Extra: Extension points are a detail version of extend relationships. Is representing dividing the oval horizontally and writing them in the bottom part.
+
+#### Relationships
+
+* Types:
+  * Association: basic interaction between actor and use case
+  * Include: represents the dependency between two use cases, one needs the other to be complete
+    * Points towards the needed use case (the required)
+    * Happens every time
+  * Extend: extend one use case only when some criteria are meet
+    * Points towards the base use case (the one extended)
+    * Happens sometimes
+  * Generalization (aka inheritance):
+    * Represents using a non-dotted arrow from children to parent
+    * Can happen between use cases and between actors
